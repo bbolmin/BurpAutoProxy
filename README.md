@@ -6,11 +6,14 @@
 ## Features
 - support : macOS, Windows
 - hotkey : F12 (on/off toggle) 
-- title change : prefix `(on) / (off)`
 - Automatically turn (on / off) proxy when (execute / terminate) Burp Suite
+- title change : prefix `(on) / (off)`
+<img src="https://user-images.githubusercontent.com/7751652/228427980-05b5fb5a-74fe-4133-9c03-279f79bc503c.png" width="40%" height="40%">
 
-## Attention.
+
+## Caution
 - The proxy setting is fixed at `127.0.0.1:8080`
+
 
 ## How to set proxy
 macOS
