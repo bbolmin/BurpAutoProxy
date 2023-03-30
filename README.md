@@ -1,7 +1,7 @@
 # BurpAutoProxy
 ## Description
 - Burp Suite Extension
-- "burp auto proxy" automatically configures proxy like fiddler.
+- "BurpAutoProxy" configures proxy settings like fiddler.
 
 ## Features
 - support : macOS, Windows
