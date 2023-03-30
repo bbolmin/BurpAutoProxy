@@ -125,6 +125,7 @@ public class BurpExtender implements IBurpExtender {
     public static void setMacProxy(String host, String port) {
         try {
             Runtime.getRuntime().exec("networksetup -setwebproxy Wi-Fi " + host + " " + port);
+            Runtime.getRuntime().exec("networksetup -setsecurewebproxy Wi-Fi " + host + " " + port);
             Runtime.getRuntime().exec("networksetup -setwebproxystate Wi-Fi on");
             Runtime.getRuntime().exec("networksetup -setsecurewebproxystate Wi-Fi on");
         } catch (IOException e) {

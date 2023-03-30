@@ -17,6 +17,7 @@ macOS
 
     # enable proxy
     Runtime.getRuntime().exec("networksetup -setwebproxy Wi-Fi " + host + " " + port);
+    Runtime.getRuntime().exec("networksetup -setsecurewebproxy Wi-Fi " + host + " " + port);
     Runtime.getRuntime().exec("networksetup -setwebproxystate Wi-Fi on");
     Runtime.getRuntime().exec("networksetup -setsecurewebproxystate Wi-Fi on");
     
